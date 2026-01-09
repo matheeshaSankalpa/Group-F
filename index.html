@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON FORGE GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Matara Gym</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#features">Facilities</a>
+            <a href="#join" class="btn-primary">Join Now</a>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <h1>NO PAIN. NO GAIN.</h1>
+            <p>Stop wishing. Start doing. The best equipment, the best vibe.</p>
+            <a href="#join" class="btn-main">START YOUR TRANSFORMATION</a>
+        </div>
+    </header>
+
+    <section id="features" class="container">
+        <h2>THE ARSENAL</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Free Weights</h3>
+                <p>Dumbbells up to 150lbs. Squat racks. Deadlift platforms. No waiting.</p>
+            </div>
+            <div class="card">
+                <h3>Cardio Zone</h3>
+                <p>Treadmills, rowers, and bikes. Burn the fat, fuel the engine.</p>
+            </div>
+            <div class="card">
+                <h3>Personal Training</h3>
+                <p>Expert coaches to push you past your limits safely.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="join-section">
+        <div class="form-container">
+            <h2>JOIN THE CREW</h2>
+            <p>First session is on the house.</p>
+            
+            <form action="" method="POST">
+                <input type="text" name="gym_name" placeholder="YOUR NAME" required>
+                <input type="email" name="gym_email" placeholder="YOUR EMAIL" required>
+                
+                <select name="goal">
+                    <option value="" disabled selected>MAIN GOAL?</option>
+                    <option value="muscle">Build Muscle</option>
+                    <option value="weightloss">Lose Weight</option>
+                    <option value="strength">Get Stronger</option>
+                </select>
+
+                <button type="submit">GET MEMBERSHIP</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>IRON FORGE GYM &copy; 2026. MATARA, SRI LANKA.</p>
+    </footer>
+
+</body>
+</html>
